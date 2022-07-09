@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "알래스카펭귄"
   avatar           : "/assets/images/penguin_style1.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "초보 프로그래머"
+  bio              : ""
   location         : "대한민국"
   email            :
   links:
@@ -287,3 +287,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
