@@ -26,6 +26,7 @@ ___
 void dialogBack() {
   Get.until((route) {
     return Get.isOverlaysClosed;
+    //리턴 값이 false일 때 Get.back 발동
   });
 }
 ```

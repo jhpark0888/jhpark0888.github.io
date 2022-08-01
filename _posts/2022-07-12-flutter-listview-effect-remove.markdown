@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "플러터 스크롤 뷰에서 ScrollGlow 없애는 방법"
+title:  "Flutter 스크롤 뷰에서 ScrollGlow 없애는 방법"
 date:   2022-07-12 20:58:51 +0900
 categories: flutter
 ---
@@ -39,3 +39,26 @@ class ScrollNoneffectWidget extends StatelessWidget {
 ```
 
 `ScrollNoneffectWidget`에 child로 ScrollGlow를 없애고 싶은 스크롤 뷰를 넣게 되면 스크롤이 끝에 다다랐을 때 아무런 효과도 나타나지 않게 된다. 
+
+---
+
+**추가** 
+
+안드로이드 폰에서는 스크롤이 끝에 다다르게 되면 위의 컨텐츠들이 조금 늘어났다가 돌아가는 효과를 가진다.
+이러한 효과를 플러터에서 구현하려면 `MaterialApp`위젯에 `scrollBehavior`를 설정하면 된다.
+
+```dart
+class MyApp extends StatelessWidget {
+  MyApp({Key? key,}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      //
+      scrollBehavior: const ScrollBehavior(
+          androidOverscrollIndicator: AndroidOverscrollIndicator.stretch),
+      //
+    );
+  }
+}
+```
