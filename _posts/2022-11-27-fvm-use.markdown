@@ -1,0 +1,83 @@
+---
+layout: posts
+title:  "FVM 사용하는 법"
+date:   2022-11-27 14:24:00 +0900
+categories: flutter
+---
+<br>
+
+## FVM이란?
+
+플러터로 앱 개발을 하다보면 여러개의 프로젝트를 만드는 경우가 있다.
+
+이런 경우에 각각의 프로젝트에서 사용하는 플러터 버전이 다르면 개발하는 프로젝트에 따라 플러터 버전을 업그레이드하거나 다운그레이드 하는 불편함이 있다.
+
+**FVM**이란 **Flutter Version Management**으로 프로젝트마다 플러터의 버전을 관리해주는 기능으로 이런 불편함을 없애기 위해서 사용되어질 수 있다.
+
+## FVM 설치
+
+cmd를 들어가서 아래의 코드를 입력해서 fvm을 설치한다.
+
+```
+dart pub global activate fvm
+```
+
+그 후 어느 경로에서도 fvm 명령어를 사용할 수 있게 환경변수를 설정해주어야 한다.
+윈도우 검색창에서 시스템 환경 변수 편집을 검색해서 들어간다.
+
+그 후 사용자에 대한 사용자 변수의 **Path**에 
+**C:\Users\사용자이름\AppData\Local\Pub\Cache\bin** 을 추가한다.
+(윈도우 10 기준으로 이 경로를 사용한다)
+
+cmd에서 fvm help 를 입력했을 때 명령어 목록이 나온다면 설치에 성공한 것이다.
+
+## 플러터 버전 설치
+
+원하는 플러터 버전을 설치한다.
+```
+fvm install 원하는 버전 // ex) 2.10.4
+fvm install stable // 안정적인 플러터 버전 설치
+```
+
+fvm list로 설치된 플러터 버전들을 볼 수 있다.
+```
+fvm list
+```
+
+설치된 플러터 버전을 제거할 수 있다.
+```
+fvm remove 원하는 버전 // ex) 2.10.4
+fvm remove stable // 안정적인 플러터 버전 제거
+```
+
+## 플러터 버전 설정
+
+cmd에서 프로젝트가 있는 폴더로 들어간 후 아래의 명령어를 입력하면 해당 프로젝트의 플러터 버전을 원하는 버전으로 적용할 수 있다.
+
+```
+fvm use 설치된 버전 // ex) 2.10.4
+```
+
+나는 처음에 이렇게 오류가 나왔는데 cmd를 관리자 권한으로 실행하고 다시 시도했더니 해결되었다.
+
+![fvm오류](https://user-images.githubusercontent.com/77378301/204123348-2fdbf13d-c469-4930-b221-0ad4a0086083.png)
+
+현재 fvm으로 적용된 플러터 버전을 보기 위해서는 아래의 명령어로 확인할 수 있다.
+
+```
+fvm flutter --version
+```
+
+## VSCode 설정 추가
+
+VSCode를 사용한다면 settings.json 파일에
+```json
+"dart.flutterSdkPaths": ["C:\\Users\\사용자이름\\fvm\\versions"]
+```
+을 추가해주어야 한다.
+
+그리고 깃을 사용한다면 .gitignore에
+```
+.fvm/flutter_sdk
+```
+을 추가해준다.
