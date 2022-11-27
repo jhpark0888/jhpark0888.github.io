@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Flutter 스크롤 뷰에서 ScrollGlow 없애는 방법"
+title:  "[Flutter] 스크롤 뷰에서 ScrollGlow 없애는 방법"
 date:   2022-07-12 20:58:51 +0900
 categories: flutter
 ---

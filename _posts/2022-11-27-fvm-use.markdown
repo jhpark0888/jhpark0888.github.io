@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "FVM 사용하는 법"
-date:   2022-11-27 14:24:00 +0900
+title:  "[Flutter] FVM 사용하는 법"
+date:   2022-11-27 19:40:00 +0900
 categories: flutter
 ---
 <br>
@@ -50,6 +50,11 @@ fvm remove 원하는 버전 // ex) 2.10.4
 fvm remove stable // 안정적인 플러터 버전 제거
 ```
 
+설치할 수 있는 플러터 버전을 모두 볼 수 있다.
+```
+fvm releases
+```
+
 ## 플러터 버전 설정
 
 cmd에서 프로젝트가 있는 폴더로 들어간 후 아래의 명령어를 입력하면 해당 프로젝트의 플러터 버전을 원하는 버전으로 적용할 수 있다.
@@ -81,3 +86,6 @@ VSCode를 사용한다면 settings.json 파일에
 .fvm/flutter_sdk
 ```
 을 추가해준다.
+
+참조 : <https://fl0wering.tistory.com/113><br>
+참조 : <https://velog.io/@kimbiyam/Flutter-fvmFlutter-Version-Management-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0>

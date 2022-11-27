@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "블로그 소개"
+title:  "[Blog] 블로그 소개"
 date:   2022-07-09 15:59:51 +0900
 categories: blog
 ---

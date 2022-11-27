@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Markdown 문법 공부"
+title:  "[Markdown] Markdown 문법 공부"
 date:   2022-07-09 20:55:22 +0900
 categories: markdown
 ---

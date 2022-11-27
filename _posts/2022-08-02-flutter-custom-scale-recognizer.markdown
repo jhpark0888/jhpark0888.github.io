@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Flutter GestureArena에서 우선적으로 ScaleGestureRecognizer를 선택하는 법"
+title:  "[Flutter] GestureArena에서 우선적으로 ScaleGestureRecognizer를 선택하는 법"
 date:   2022-08-02 01:18:00 +0900
 categories: flutter
 ---

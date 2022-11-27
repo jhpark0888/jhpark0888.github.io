@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Getx에서 dialog만 지우는 방법"
+title:  "[Getx] Getx에서 dialog만 지우는 방법"
 date:   2022-07-10 16:53:51 +0900
 categories: getx
 ---

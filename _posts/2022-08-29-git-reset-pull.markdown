@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Git pull 되돌리는 방법"
+title:  "[Git] Git pull 되돌리는 방법"
 date:   2022-08-29 22:09:01 +0900
 categories: git
 ---
