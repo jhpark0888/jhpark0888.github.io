@@ -43,6 +43,6 @@ categories: flutter
 
 코드를 추가하고 앱을 켜봤더니 성공적으로 앱 아이콘이 잠시 나오고 내가 설정한 스플래시 스크린으로 나오게 되었습니다.
 
-**참조:**
+**참고자료**<br>
 <https://dev-yakuza.posstree.com/ko/flutter/splash-screen/>
 {: .notice--info}

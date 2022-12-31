@@ -1,10 +1,9 @@
 ---
 layout: posts
 title:  "[Markdown] Markdown 문자박스"
-date:   2022-07-09 15:59:51 +0900
+date:   2022-12-31 15:59:51 +0900
 categories: markdown
 ---
-<!-- 첫 줄 띄어놓기 -->
 <br>
 <br>
 
@@ -80,5 +79,6 @@ Danger
 
 <br>
 
-**참조 :** <https://eona1301.github.io/github_blog/GithubBlog-Posting/>
+**참고자료**<br>
+<https://eona1301.github.io/github_blog/GithubBlog-Posting/>
 {: .notice--info}

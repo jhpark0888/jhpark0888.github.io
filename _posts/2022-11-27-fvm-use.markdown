@@ -89,6 +89,7 @@ VSCode를 사용한다면 settings.json 파일에
 
 <br>
 
-**참조 :** <https://fl0wering.tistory.com/113><br>
-**참조 :** <https://velog.io/@kimbiyam/Flutter-fvmFlutter-Version-Management-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0>
+**참고자료**<br>
+<https://fl0wering.tistory.com/113><br>
+<https://velog.io/@kimbiyam/Flutter-fvmFlutter-Version-Management-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0>
 {: .notice--info}
