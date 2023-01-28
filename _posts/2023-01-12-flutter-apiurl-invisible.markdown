@@ -28,6 +28,10 @@ Flutter에서 .env 파일을 사용하기 위해서 라이브러리를 주로 �
 
 ![flutter_dotenv](https://user-images.githubusercontent.com/77378301/211866074-420f8c1f-7359-429c-b036-cb0a9853f0ed.png)
 
+아래와 같이 작성해야 Flutter가 env파일을 찾을 수 있다.
+
+![assets에 추가](https://user-images.githubusercontent.com/77378301/215276780-eaa02587-a332-4f44-9506-02a40196ea3e.png)
+
 ___
 ## .env 파일 생성 및 작성
 <br>
